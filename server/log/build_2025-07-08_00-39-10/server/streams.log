@@ -1,0 +1,154 @@
+[0.394s] Invoking command in '/mnt/c/Users/jalen/Desktop/Projects/ros2/server/build/server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/jalen/Desktop/Projects/ros2/server/build/server -- -j12 -l12
+[2.171s] [  3%] Built target server__cpp
+[2.327s] [ 12%] Built target server__rosidl_generator_c
+[2.744s] [ 30%] Built target server__rosidl_typesupport_cpp
+[2.750s] [ 30%] Built target server__rosidl_typesupport_introspection_cpp
+[2.881s] [ 45%] Built target server__rosidl_typesupport_fastrtps_cpp
+[2.895s] [ 48%] Built target server__rosidl_typesupport_c
+[2.947s] [ 57%] Built target server__rosidl_typesupport_introspection_c
+[2.994s] [ 66%] Built target server__rosidl_typesupport_fastrtps_c
+[3.083s] [35m[1mConsolidate compiler generated dependencies of target add_three_ints_server[0m
+[3.406s] [ 66%] Built target ament_cmake_python_copy_server
+[3.563s] [ 66%] Built target server
+[4.342s] [ 69%] Built target server__py
+[4.699s] [ 75%] Built target add_three_ints_server
+[5.397s] [ 81%] Built target server__rosidl_generator_py
+[5.867s] running egg_info
+[5.876s] writing server.egg-info/PKG-INFO
+[5.891s] writing dependency_links to server.egg-info/dependency_links.txt
+[5.914s] writing top-level names to server.egg-info/top_level.txt
+[5.987s] [ 90%] Built target server__rosidl_typesupport_fastrtps_c__pyext
+[6.000s] [ 93%] Built target server__rosidl_typesupport_c__pyext
+[6.004s] reading manifest file 'server.egg-info/SOURCES.txt'
+[6.095s] writing manifest file 'server.egg-info/SOURCES.txt'
+[6.228s] [100%] Built target server__rosidl_typesupport_introspection_c__pyext
+[6.508s] [100%] Built target ament_cmake_python_build_server_egg
+[7.165s] Invoked command in '/mnt/c/Users/jalen/Desktop/Projects/ros2/server/build/server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/jalen/Desktop/Projects/ros2/server/build/server -- -j12 -l12
+[7.561s] Invoking command in '/mnt/c/Users/jalen/Desktop/Projects/ros2/server/build/server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/jalen/Desktop/Projects/ros2/server/build/server
+[7.858s] -- Install configuration: ""
+[7.923s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/ament_index/resource_index/rosidl_interfaces/server
+[7.963s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server
+[8.023s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/msg
+[8.114s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/msg/rosidl_generator_c__visibility_control.h
+[8.158s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/srv
+[8.236s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/srv/add_three_ints.h
+[8.285s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/srv/detail
+[8.378s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/srv/detail/add_three_ints__functions.c
+[8.447s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/srv/detail/add_three_ints__functions.h
+[8.518s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/srv/detail/add_three_ints__struct.h
+[8.610s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/srv/detail/add_three_ints__type_support.h
+[8.653s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/environment/library_path.sh
+[8.706s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/environment/library_path.dsv
+[8.834s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/lib/libserver__rosidl_generator_c.so
+[8.949s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server
+[9.006s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/msg
+[9.085s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.132s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/srv
+[9.203s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/srv/detail
+[9.291s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[9.416s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/lib/libserver__rosidl_typesupport_fastrtps_c.so
+[9.566s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server
+[9.635s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/msg
+[9.719s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.763s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/srv
+[9.829s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/srv/detail
+[9.918s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[9.987s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/srv/detail/add_three_ints__type_support.c
+[10.118s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/lib/libserver__rosidl_typesupport_introspection_c.so
+[10.313s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/lib/libserver__rosidl_typesupport_c.so
+[10.432s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server
+[10.489s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/msg
+[10.567s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.619s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/srv
+[10.701s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/srv/add_three_ints.hpp
+[10.751s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/srv/detail
+[10.839s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/srv/detail/add_three_ints__builder.hpp
+[10.906s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/srv/detail/add_three_ints__struct.hpp
+[10.974s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/srv/detail/add_three_ints__traits.hpp
+[11.043s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/srv/detail/add_three_ints__type_support.hpp
+[11.083s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server
+[11.136s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/msg
+[11.213s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.258s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/srv
+[11.324s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/srv/detail
+[11.419s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[11.477s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/srv/detail/dds_fastrtps
+[11.629s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/lib/libserver__rosidl_typesupport_fastrtps_cpp.so
+[11.740s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server
+[11.797s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/srv
+[11.863s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/srv/detail
+[11.957s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[12.023s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/include/server/server/srv/detail/add_three_ints__type_support.cpp
+[12.139s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/lib/libserver__rosidl_typesupport_introspection_cpp.so
+[12.326s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/lib/libserver__rosidl_typesupport_cpp.so
+[12.459s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/environment/pythonpath.sh
+[12.512s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/environment/pythonpath.dsv
+[12.558s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/local/lib/python3.10/dist-packages/server-0.0.0-py3.10.egg-info
+[12.642s] -- Installing: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/local/lib/python3.10/dist-packages/server-0.0.0-py3.10.egg-info/dependency_links.txt
+[12.872s] -- Installing: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/local/lib/python3.10/dist-packages/server-0.0.0-py3.10.egg-info/PKG-INFO
+[13.107s] -- Installing: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/local/lib/python3.10/dist-packages/server-0.0.0-py3.10.egg-info/SOURCES.txt
+[13.339s] -- Installing: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/local/lib/python3.10/dist-packages/server-0.0.0-py3.10.egg-info/top_level.txt
+[13.551s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/local/lib/python3.10/dist-packages/server
+[13.630s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/local/lib/python3.10/dist-packages/server/libserver__rosidl_generator_py.so
+[13.688s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/local/lib/python3.10/dist-packages/server/server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[13.746s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/local/lib/python3.10/dist-packages/server/server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[13.803s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/local/lib/python3.10/dist-packages/server/server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[13.854s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/local/lib/python3.10/dist-packages/server/srv
+[13.942s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/local/lib/python3.10/dist-packages/server/srv/_add_three_ints.py
+[14.009s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/local/lib/python3.10/dist-packages/server/srv/_add_three_ints_s.c
+[14.076s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/local/lib/python3.10/dist-packages/server/srv/__init__.py
+[14.134s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/local/lib/python3.10/dist-packages/server/_server_s.ep.rosidl_typesupport_c.c
+[14.192s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/local/lib/python3.10/dist-packages/server/_server_s.ep.rosidl_typesupport_fastrtps_c.c
+[14.249s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/local/lib/python3.10/dist-packages/server/_server_s.ep.rosidl_typesupport_introspection_c.c
+[14.307s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/local/lib/python3.10/dist-packages/server/__init__.py
+[15.283s] Listing '/mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/local/lib/python3.10/dist-packages/server'...
+[15.285s] Listing '/mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/local/lib/python3.10/dist-packages/server/srv'...
+[15.456s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/local/lib/python3.10/dist-packages/server/server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.778s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/local/lib/python3.10/dist-packages/server/server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.078s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/local/lib/python3.10/dist-packages/server/server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.337s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/lib/libserver__rosidl_generator_py.so
+[16.486s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/srv/AddThreeInts.idl
+[16.550s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/srv/AddThreeInts.srv
+[16.611s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/srv/AddThreeInts_Request.msg
+[16.670s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/srv/AddThreeInts_Response.msg
+[16.789s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/lib/server/add_three_ints_server
+[16.952s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/ament_index/resource_index/package_run_dependencies/server
+[17.034s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/ament_index/resource_index/parent_prefix_path/server
+[17.077s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/environment/ament_prefix_path.sh
+[17.129s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/environment/ament_prefix_path.dsv
+[17.169s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/environment/path.sh
+[17.221s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/environment/path.dsv
+[17.270s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/local_setup.bash
+[17.316s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/local_setup.sh
+[17.359s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/local_setup.zsh
+[17.406s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/local_setup.dsv
+[17.449s] -- Installing: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/package.dsv
+[17.639s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/ament_index/resource_index/packages/server
+[17.768s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/cmake/export_server__rosidl_generator_cExport.cmake
+[17.844s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/cmake/export_server__rosidl_generator_cExport-noconfig.cmake
+[17.968s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/cmake/export_server__rosidl_typesupport_fastrtps_cExport.cmake
+[18.049s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/cmake/export_server__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[18.180s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/cmake/server__rosidl_typesupport_introspection_cExport.cmake
+[18.259s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/cmake/server__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[18.392s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/cmake/server__rosidl_typesupport_cExport.cmake
+[18.474s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/cmake/server__rosidl_typesupport_cExport-noconfig.cmake
+[18.597s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/cmake/export_server__rosidl_generator_cppExport.cmake
+[18.718s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/cmake/export_server__rosidl_typesupport_fastrtps_cppExport.cmake
+[18.796s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/cmake/export_server__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[18.919s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/cmake/server__rosidl_typesupport_introspection_cppExport.cmake
+[18.998s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/cmake/server__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[19.127s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/cmake/server__rosidl_typesupport_cppExport.cmake
+[19.203s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/cmake/server__rosidl_typesupport_cppExport-noconfig.cmake
+[19.330s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/cmake/export_server__rosidl_generator_pyExport.cmake
+[19.406s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/cmake/export_server__rosidl_generator_pyExport-noconfig.cmake
+[19.460s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/cmake/rosidl_cmake-extras.cmake
+[19.515s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.566s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/cmake/ament_cmake_export_libraries-extras.cmake
+[19.619s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/cmake/ament_cmake_export_targets-extras.cmake
+[19.673s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.726s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.778s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.832s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/cmake/serverConfig.cmake
+[19.873s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/cmake/serverConfig-version.cmake
+[19.928s] -- Up-to-date: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/install/server/share/server/package.xml
+[19.983s] Invoked command in '/mnt/c/Users/jalen/Desktop/Projects/ros2/server/build/server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/jalen/Desktop/Projects/ros2/server/build/server

@@ -1,0 +1,431 @@
+[0.000000] (-) TimerEvent: {}
+[0.001786] (server) JobQueued: {'identifier': 'server', 'dependencies': OrderedDict()}
+[0.002519] (server) JobStarted: {'identifier': 'server'}
+[0.054844] (server) JobProgress: {'identifier': 'server', 'progress': 'cmake'}
+[0.096058] (-) TimerEvent: {}
+[0.113700] (server) JobProgress: {'identifier': 'server', 'progress': 'build'}
+[0.128193] (server) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/c/Users/jalen/Desktop/Projects/ros2/server/build/server', '--', '-j12', '-l12'], 'cwd': '/mnt/c/Users/jalen/Desktop/Projects/ros2/server/build/server', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jalendra123'), ('GIT_ASKPASS', '/home/jalendra123/.vscode-server/bin/2901c5ac6db8a986a5666c3af51ff804d05af0d4/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jalendra123'), ('OLDPWD', '/mnt/c/Users/jalen/Desktop/Projects/ros2/server/src'), ('TERM_PROGRAM_VERSION', '1.101.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-7e152ba1-0b3d-4de9-8b69-2df7458c3546.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jalendra123/.vscode-server/bin/2901c5ac6db8a986a5666c3af51ff804d05af0d4/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jalendra123/.vscode-server/bin/2901c5ac6db8a986a5666c3af51ff804d05af0d4/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jalendra123'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/433_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jalendra123/.vscode-server/bin/2901c5ac6db8a986a5666c3af51ff804d05af0d4/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/jalen/Downloads/WINDOWS.X64_193000_db_home/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Users/jalen/OneDrive/Documents/Matlab/bin:/mnt/c/Users/jalen/OneDrive/Documents/Matlab/R2024a/bin:/mnt/c/Users/jalen/Desktop/Matlab/bin:/mnt/c/Users/jalen/Desktop/Matlab/R2024a/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Users/jalen/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jalen/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Windows.old/Users/jalen/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/jalen/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/jalen/AppData/Roaming/npm:/mnt/c/Program Files/R/R-4.4.1/bin:/mnt/c/mingw64/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-dfb2a619d2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/mnt/c/Users/jalen/Desktop/Projects/ros2/server/build/server'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.196296] (-) TimerEvent: {}
+[0.297705] (-) TimerEvent: {}
+[0.398828] (-) TimerEvent: {}
+[0.500084] (-) TimerEvent: {}
+[0.601599] (-) TimerEvent: {}
+[0.686956] (server) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.701859] (-) TimerEvent: {}
+[0.803601] (-) TimerEvent: {}
+[0.905072] (-) TimerEvent: {}
+[1.006194] (-) TimerEvent: {}
+[1.107212] (-) TimerEvent: {}
+[1.120012] (server) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.161317] (server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.167936] (server) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.207440] (-) TimerEvent: {}
+[1.308431] (-) TimerEvent: {}
+[1.409343] (-) TimerEvent: {}
+[1.484294] (server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.509477] (-) TimerEvent: {}
+[1.534164] (server) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.609661] (-) TimerEvent: {}
+[1.613814] (server) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.628279] (server) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.709768] (-) TimerEvent: {}
+[1.810693] (-) TimerEvent: {}
+[1.911562] (-) TimerEvent: {}
+[2.012418] (-) TimerEvent: {}
+[2.113355] (-) TimerEvent: {}
+[2.214345] (-) TimerEvent: {}
+[2.315199] (-) TimerEvent: {}
+[2.416095] (-) TimerEvent: {}
+[2.516930] (-) TimerEvent: {}
+[2.617811] (-) TimerEvent: {}
+[2.718610] (-) TimerEvent: {}
+[2.819442] (-) TimerEvent: {}
+[2.920249] (-) TimerEvent: {}
+[3.021155] (-) TimerEvent: {}
+[3.122088] (-) TimerEvent: {}
+[3.223014] (-) TimerEvent: {}
+[3.323876] (-) TimerEvent: {}
+[3.424723] (-) TimerEvent: {}
+[3.525616] (-) TimerEvent: {}
+[3.626559] (-) TimerEvent: {}
+[3.727431] (-) TimerEvent: {}
+[3.828259] (-) TimerEvent: {}
+[3.929301] (-) TimerEvent: {}
+[4.030262] (-) TimerEvent: {}
+[4.131237] (-) TimerEvent: {}
+[4.232133] (-) TimerEvent: {}
+[4.333078] (-) TimerEvent: {}
+[4.433956] (-) TimerEvent: {}
+[4.534887] (-) TimerEvent: {}
+[4.635877] (-) TimerEvent: {}
+[4.736699] (-) TimerEvent: {}
+[4.837594] (-) TimerEvent: {}
+[4.938539] (-) TimerEvent: {}
+[5.039534] (-) TimerEvent: {}
+[5.140499] (-) TimerEvent: {}
+[5.241443] (-) TimerEvent: {}
+[5.342313] (-) TimerEvent: {}
+[5.443177] (-) TimerEvent: {}
+[5.544015] (-) TimerEvent: {}
+[5.645031] (-) TimerEvent: {}
+[5.745931] (-) TimerEvent: {}
+[5.846815] (-) TimerEvent: {}
+[5.947625] (-) TimerEvent: {}
+[6.048476] (-) TimerEvent: {}
+[6.149361] (-) TimerEvent: {}
+[6.250134] (-) TimerEvent: {}
+[6.350926] (-) TimerEvent: {}
+[6.451680] (-) TimerEvent: {}
+[6.552522] (-) TimerEvent: {}
+[6.653557] (-) TimerEvent: {}
+[6.754361] (-) TimerEvent: {}
+[6.855210] (-) TimerEvent: {}
+[6.956132] (-) TimerEvent: {}
+[7.057068] (-) TimerEvent: {}
+[7.158077] (-) TimerEvent: {}
+[7.258983] (-) TimerEvent: {}
+[7.359961] (-) TimerEvent: {}
+[7.460880] (-) TimerEvent: {}
+[7.561823] (-) TimerEvent: {}
+[7.662714] (-) TimerEvent: {}
+[7.763618] (-) TimerEvent: {}
+[7.864540] (-) TimerEvent: {}
+[7.965583] (-) TimerEvent: {}
+[8.066365] (-) TimerEvent: {}
+[8.167176] (-) TimerEvent: {}
+[8.268177] (-) TimerEvent: {}
+[8.369056] (-) TimerEvent: {}
+[8.469847] (-) TimerEvent: {}
+[8.570794] (-) TimerEvent: {}
+[8.671749] (-) TimerEvent: {}
+[8.772679] (-) TimerEvent: {}
+[8.873491] (-) TimerEvent: {}
+[8.974390] (-) TimerEvent: {}
+[9.075270] (-) TimerEvent: {}
+[9.176144] (-) TimerEvent: {}
+[9.277241] (-) TimerEvent: {}
+[9.378071] (-) TimerEvent: {}
+[9.478929] (-) TimerEvent: {}
+[9.579775] (-) TimerEvent: {}
+[9.680607] (-) TimerEvent: {}
+[9.781418] (-) TimerEvent: {}
+[9.882286] (-) TimerEvent: {}
+[9.983110] (-) TimerEvent: {}
+[10.084015] (-) TimerEvent: {}
+[10.185028] (-) TimerEvent: {}
+[10.285906] (-) TimerEvent: {}
+[10.386920] (-) TimerEvent: {}
+[10.487823] (-) TimerEvent: {}
+[10.588715] (-) TimerEvent: {}
+[10.689570] (-) TimerEvent: {}
+[10.790380] (-) TimerEvent: {}
+[10.840218] (server) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.890558] (-) TimerEvent: {}
+[10.991650] (-) TimerEvent: {}
+[11.092554] (-) TimerEvent: {}
+[11.193548] (-) TimerEvent: {}
+[11.294543] (-) TimerEvent: {}
+[11.395339] (-) TimerEvent: {}
+[11.496183] (-) TimerEvent: {}
+[11.597260] (-) TimerEvent: {}
+[11.698257] (-) TimerEvent: {}
+[11.799141] (-) TimerEvent: {}
+[11.900053] (-) TimerEvent: {}
+[12.001102] (-) TimerEvent: {}
+[12.079085] (server) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[12.101260] (-) TimerEvent: {}
+[12.202058] (-) TimerEvent: {}
+[12.302851] (-) TimerEvent: {}
+[12.403931] (-) TimerEvent: {}
+[12.504717] (-) TimerEvent: {}
+[12.605660] (-) TimerEvent: {}
+[12.706728] (-) TimerEvent: {}
+[12.807579] (-) TimerEvent: {}
+[12.908393] (-) TimerEvent: {}
+[13.009305] (-) TimerEvent: {}
+[13.020503] (server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[13.109456] (-) TimerEvent: {}
+[13.210313] (-) TimerEvent: {}
+[13.311261] (-) TimerEvent: {}
+[13.412211] (-) TimerEvent: {}
+[13.513090] (-) TimerEvent: {}
+[13.613964] (-) TimerEvent: {}
+[13.715084] (-) TimerEvent: {}
+[13.816204] (-) TimerEvent: {}
+[13.917061] (-) TimerEvent: {}
+[14.018000] (-) TimerEvent: {}
+[14.118871] (-) TimerEvent: {}
+[14.219651] (-) TimerEvent: {}
+[14.285716] (server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[14.319915] (-) TimerEvent: {}
+[14.325306] (server) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[14.365262] (server) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[14.367358] (server) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[14.369575] (server) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[14.420077] (-) TimerEvent: {}
+[14.521021] (-) TimerEvent: {}
+[14.621902] (-) TimerEvent: {}
+[14.722767] (-) TimerEvent: {}
+[14.823724] (-) TimerEvent: {}
+[14.924599] (-) TimerEvent: {}
+[15.025512] (-) TimerEvent: {}
+[15.126345] (-) TimerEvent: {}
+[15.227179] (-) TimerEvent: {}
+[15.328110] (-) TimerEvent: {}
+[15.429064] (-) TimerEvent: {}
+[15.529911] (-) TimerEvent: {}
+[15.630912] (-) TimerEvent: {}
+[15.731857] (-) TimerEvent: {}
+[15.832658] (-) TimerEvent: {}
+[15.894893] (server) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.932845] (-) TimerEvent: {}
+[16.033764] (-) TimerEvent: {}
+[16.134589] (-) TimerEvent: {}
+[16.235499] (-) TimerEvent: {}
+[16.336409] (-) TimerEvent: {}
+[16.437309] (-) TimerEvent: {}
+[16.538132] (-) TimerEvent: {}
+[16.638941] (-) TimerEvent: {}
+[16.740054] (-) TimerEvent: {}
+[16.840921] (-) TimerEvent: {}
+[16.941787] (-) TimerEvent: {}
+[17.042776] (-) TimerEvent: {}
+[17.143650] (-) TimerEvent: {}
+[17.244519] (-) TimerEvent: {}
+[17.345494] (-) TimerEvent: {}
+[17.446256] (-) TimerEvent: {}
+[17.547376] (-) TimerEvent: {}
+[17.650456] (-) TimerEvent: {}
+[17.751282] (-) TimerEvent: {}
+[17.852282] (-) TimerEvent: {}
+[17.953219] (-) TimerEvent: {}
+[18.054224] (-) TimerEvent: {}
+[18.155111] (-) TimerEvent: {}
+[18.256469] (-) TimerEvent: {}
+[18.357385] (-) TimerEvent: {}
+[18.458268] (-) TimerEvent: {}
+[18.559195] (-) TimerEvent: {}
+[18.660181] (-) TimerEvent: {}
+[18.761242] (-) TimerEvent: {}
+[18.862155] (-) TimerEvent: {}
+[18.963232] (-) TimerEvent: {}
+[19.064107] (-) TimerEvent: {}
+[19.164875] (-) TimerEvent: {}
+[19.265829] (-) TimerEvent: {}
+[19.366644] (-) TimerEvent: {}
+[19.467497] (-) TimerEvent: {}
+[19.568315] (-) TimerEvent: {}
+[19.669318] (-) TimerEvent: {}
+[19.770284] (-) TimerEvent: {}
+[19.871136] (-) TimerEvent: {}
+[19.971984] (-) TimerEvent: {}
+[20.072870] (-) TimerEvent: {}
+[20.173696] (-) TimerEvent: {}
+[20.274593] (-) TimerEvent: {}
+[20.284451] (server) StdoutLine: {'line': b'-- Generating done\n'}
+[20.374737] (-) TimerEvent: {}
+[20.475583] (-) TimerEvent: {}
+[20.576504] (-) TimerEvent: {}
+[20.677717] (-) TimerEvent: {}
+[20.778600] (-) TimerEvent: {}
+[20.879486] (-) TimerEvent: {}
+[20.980354] (-) TimerEvent: {}
+[21.081255] (-) TimerEvent: {}
+[21.182314] (-) TimerEvent: {}
+[21.283172] (-) TimerEvent: {}
+[21.384010] (-) TimerEvent: {}
+[21.485158] (-) TimerEvent: {}
+[21.585964] (-) TimerEvent: {}
+[21.686780] (-) TimerEvent: {}
+[21.787649] (-) TimerEvent: {}
+[21.887160] (server) StdoutLine: {'line': b'-- Build files have been written to: /mnt/c/Users/jalen/Desktop/Projects/ros2/server/build/server\n'}
+[21.889259] (-) TimerEvent: {}
+[21.990070] (-) TimerEvent: {}
+[22.090970] (-) TimerEvent: {}
+[22.191777] (-) TimerEvent: {}
+[22.292758] (-) TimerEvent: {}
+[22.393863] (-) TimerEvent: {}
+[22.410827] (server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server__rosidl_generator_c\x1b[0m\n'}
+[22.465426] (server) StdoutLine: {'line': b'[  3%] Built target server__cpp\n'}
+[22.493976] (-) TimerEvent: {}
+[22.586817] (server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server__rosidl_typesupport_cpp\x1b[0m\n'}
+[22.594152] (-) TimerEvent: {}
+[22.625886] (server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[22.632387] (server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[22.694342] (-) TimerEvent: {}
+[22.775724] (server) StdoutLine: {'line': b'[ 12%] Built target server__rosidl_generator_c\n'}
+[22.794532] (-) TimerEvent: {}
+[22.895712] (-) TimerEvent: {}
+[22.933444] (server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server__rosidl_typesupport_c\x1b[0m\n'}
+[22.962195] (server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[22.965295] (server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[22.995867] (-) TimerEvent: {}
+[23.097157] (-) TimerEvent: {}
+[23.198277] (-) TimerEvent: {}
+[23.210661] (server) StdoutLine: {'line': b'[ 21%] Built target server__rosidl_typesupport_cpp\n'}
+[23.239062] (server) StdoutLine: {'line': b'[ 30%] Built target server__rosidl_typesupport_c\n'}
+[23.290990] (server) StdoutLine: {'line': b'[ 39%] Built target server__rosidl_typesupport_introspection_cpp\n'}
+[23.298476] (-) TimerEvent: {}
+[23.326188] (server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target add_three_ints_server\x1b[0m\n'}
+[23.335034] (server) StdoutLine: {'line': b'[ 48%] Built target server__rosidl_typesupport_introspection_c\n'}
+[23.398677] (-) TimerEvent: {}
+[23.422671] (server) StdoutLine: {'line': b'[ 57%] Built target server__rosidl_typesupport_fastrtps_cpp\n'}
+[23.498839] (-) TimerEvent: {}
+[23.599734] (-) TimerEvent: {}
+[23.608283] (server) StdoutLine: {'line': b'[ 57%] Built target ament_cmake_python_copy_server\n'}
+[23.669859] (server) StdoutLine: {'line': b'[ 66%] Built target server__rosidl_typesupport_fastrtps_c\n'}
+[23.699930] (-) TimerEvent: {}
+[23.800705] (-) TimerEvent: {}
+[23.803219] (server) StdoutLine: {'line': b'[ 66%] Built target server\n'}
+[23.900874] (-) TimerEvent: {}
+[24.001725] (-) TimerEvent: {}
+[24.027431] (server) StdoutLine: {'line': b'[ 69%] Built target server__py\n'}
+[24.101828] (-) TimerEvent: {}
+[24.117213] (server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server__rosidl_generator_py\x1b[0m\n'}
+[24.201962] (-) TimerEvent: {}
+[24.271744] (server) StdoutLine: {'line': b'running egg_info\n'}
+[24.277837] (server) StdoutLine: {'line': b'writing server.egg-info/PKG-INFO\n'}
+[24.288556] (server) StdoutLine: {'line': b'writing dependency_links to server.egg-info/dependency_links.txt\n'}
+[24.302075] (-) TimerEvent: {}
+[24.305113] (server) StdoutLine: {'line': b'writing top-level names to server.egg-info/top_level.txt\n'}
+[24.376882] (server) StdoutLine: {'line': b"reading manifest file 'server.egg-info/SOURCES.txt'\n"}
+[24.402247] (-) TimerEvent: {}
+[24.450754] (server) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/add_three_ints_server.dir/src/add_three_ints_server.cpp.o\x1b[0m\n'}
+[24.452810] (server) StdoutLine: {'line': b"writing manifest file 'server.egg-info/SOURCES.txt'\n"}
+[24.502459] (-) TimerEvent: {}
+[24.531732] (server) StdoutLine: {'line': b'[ 72%] Built target ament_cmake_python_build_server_egg\n'}
+[24.602630] (-) TimerEvent: {}
+[24.641586] (server) StdoutLine: {'line': b'[ 78%] Built target server__rosidl_generator_py\n'}
+[24.702788] (-) TimerEvent: {}
+[24.735061] (server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[24.738049] (server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[24.740759] (server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[24.802918] (-) TimerEvent: {}
+[24.903826] (-) TimerEvent: {}
+[25.004905] (-) TimerEvent: {}
+[25.105675] (-) TimerEvent: {}
+[25.206641] (-) TimerEvent: {}
+[25.297530] (server) StdoutLine: {'line': b'[ 90%] Built target server__rosidl_typesupport_fastrtps_c__pyext\n'}
+[25.300902] (server) StdoutLine: {'line': b'[ 90%] Built target server__rosidl_typesupport_introspection_c__pyext\n'}
+[25.306804] (-) TimerEvent: {}
+[25.324482] (server) StdoutLine: {'line': b'[ 96%] Built target server__rosidl_typesupport_c__pyext\n'}
+[25.406946] (-) TimerEvent: {}
+[25.507901] (-) TimerEvent: {}
+[25.608643] (-) TimerEvent: {}
+[25.709413] (-) TimerEvent: {}
+[25.810319] (-) TimerEvent: {}
+[25.911179] (-) TimerEvent: {}
+[26.012060] (-) TimerEvent: {}
+[26.112878] (-) TimerEvent: {}
+[26.213729] (-) TimerEvent: {}
+[26.314757] (-) TimerEvent: {}
+[26.415574] (-) TimerEvent: {}
+[26.516541] (-) TimerEvent: {}
+[26.617589] (-) TimerEvent: {}
+[26.718458] (-) TimerEvent: {}
+[26.819289] (-) TimerEvent: {}
+[26.920254] (-) TimerEvent: {}
+[27.021320] (-) TimerEvent: {}
+[27.122181] (-) TimerEvent: {}
+[27.223091] (-) TimerEvent: {}
+[27.323865] (-) TimerEvent: {}
+[27.424694] (-) TimerEvent: {}
+[27.525698] (-) TimerEvent: {}
+[27.626517] (-) TimerEvent: {}
+[27.727517] (-) TimerEvent: {}
+[27.828463] (-) TimerEvent: {}
+[27.929471] (-) TimerEvent: {}
+[28.030483] (-) TimerEvent: {}
+[28.131474] (-) TimerEvent: {}
+[28.232348] (-) TimerEvent: {}
+[28.333358] (-) TimerEvent: {}
+[28.434208] (-) TimerEvent: {}
+[28.535060] (-) TimerEvent: {}
+[28.635961] (-) TimerEvent: {}
+[28.737129] (-) TimerEvent: {}
+[28.837922] (-) TimerEvent: {}
+[28.938844] (-) TimerEvent: {}
+[29.039675] (-) TimerEvent: {}
+[29.140494] (-) TimerEvent: {}
+[29.241451] (-) TimerEvent: {}
+[29.342386] (-) TimerEvent: {}
+[29.443384] (-) TimerEvent: {}
+[29.544273] (-) TimerEvent: {}
+[29.645353] (-) TimerEvent: {}
+[29.746236] (-) TimerEvent: {}
+[29.847169] (-) TimerEvent: {}
+[29.948022] (-) TimerEvent: {}
+[30.049311] (-) TimerEvent: {}
+[30.150358] (-) TimerEvent: {}
+[30.251451] (-) TimerEvent: {}
+[30.288471] (server) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/jalen/Desktop/Projects/ros2/server/src/server/src/add_three_ints_server.cpp:6:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[30.289995] (server) StderrLine: {'line': b'    6 | void add(const std::shared_ptr<\x1b[01;31m\x1b[Ktutorial_interfaces\x1b[m\x1b[K::srv::AddThreeInts::Request> request,\n'}
+[30.291311] (server) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[30.292454] (server) StderrLine: {'line': b'      |                                \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[30.294093] (server) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/jalen/Desktop/Projects/ros2/server/src/server/src/add_three_ints_server.cpp:6:79:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[30.295776] (server) StderrLine: {'line': b'    6 | void add(const std::shared_ptr<tutorial_interfaces::srv::AddThreeInts::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[30.298049] (server) StderrLine: {'line': b'      |                                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[30.299744] (server) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/jalen/Desktop/Projects/ros2/server/src/server/src/add_three_ints_server.cpp:6:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[30.301569] (server) StderrLine: {'line': b'    6 | void add(const std::shared_ptr<\x1b[01;31m\x1b[Ktutorial_interfaces\x1b[m\x1b[K::srv::AddThreeInts::Request> request,\n'}
+[30.303235] (server) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[30.304884] (server) StderrLine: {'line': b'      |                                \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[30.306623] (server) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/jalen/Desktop/Projects/ros2/server/src/server/src/add_three_ints_server.cpp:6:79:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[30.308317] (server) StderrLine: {'line': b'    6 | void add(const std::shared_ptr<tutorial_interfaces::srv::AddThreeInts::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[30.309957] (server) StderrLine: {'line': b'      |                                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[30.311625] (server) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/jalen/Desktop/Projects/ros2/server/src/server/src/add_three_ints_server.cpp:6:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[30.313304] (server) StderrLine: {'line': b'    6 | void add(const std::shared_ptr<\x1b[01;31m\x1b[Ktutorial_interfaces\x1b[m\x1b[K::srv::AddThreeInts::Request> request,\n'}
+[30.315077] (server) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[30.317090] (server) StderrLine: {'line': b'      |                                \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[30.319008] (server) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/jalen/Desktop/Projects/ros2/server/src/server/src/add_three_ints_server.cpp:6:79:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[30.321200] (server) StderrLine: {'line': b'    6 | void add(const std::shared_ptr<tutorial_interfaces::srv::AddThreeInts::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[30.323172] (server) StderrLine: {'line': b'      |                                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[30.324868] (server) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/jalen/Desktop/Projects/ros2/server/src/server/src/add_three_ints_server.cpp:6:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[30.326729] (server) StderrLine: {'line': b'    6 | void add(const \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<tutorial_interfaces::srv::AddThreeInts::Request> request,\n'}
+[30.328483] (server) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[30.330405] (server) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/jalen/Desktop/Projects/ros2/server/src/server/src/add_three_ints_server.cpp:6:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[30.332457] (server) StderrLine: {'line': b'    6 | void add(const std::shared_ptr<\x1b[01;31m\x1b[Ktutorial_interfaces\x1b[m\x1b[K::srv::AddThreeInts::Request> request,\n'}
+[30.334373] (server) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[30.336152] (server) StderrLine: {'line': b'      |                                \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[30.337940] (server) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/jalen/Desktop/Projects/ros2/server/src/server/src/add_three_ints_server.cpp:6:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvariable or field \xe2\x80\x98\x1b[01m\x1b[Kadd\x1b[m\x1b[K\xe2\x80\x99 declared void\n'}
+[30.339723] (server) StderrLine: {'line': b'    6 | void \x1b[01;31m\x1b[Kadd\x1b[m\x1b[K(const std::shared_ptr<tutorial_interfaces::srv::AddThreeInts::Request> request,\n'}
+[30.341504] (server) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[30.343263] (server) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/jalen/Desktop/Projects/ros2/server/src/server/src/add_three_ints_server.cpp:6:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[30.345206] (server) StderrLine: {'line': b'    6 | void add(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::shared_ptr<tutorial_interfaces::srv::AddThreeInts::Request> request,\n'}
+[30.347245] (server) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[30.349051] (server) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/jalen/Desktop/Projects/ros2/server/src/server/src/add_three_ints_server.cpp:7:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[30.350895] (server) StderrLine: {'line': b'    7 |           std::shared_ptr<\x1b[01;31m\x1b[Ktutorial_interfaces\x1b[m\x1b[K::srv::AddThreeInts::Response>       response)\n'}
+[30.352687] (-) TimerEvent: {}
+[30.353283] (server) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[30.355086] (server) StderrLine: {'line': b'      |                           \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[30.356903] (server) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/jalen/Desktop/Projects/ros2/server/src/server/src/add_three_ints_server.cpp:7:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[30.358758] (server) StderrLine: {'line': b'    7 |           std::shared_ptr<tutorial_interfaces::srv::AddThreeInts::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K       response)\n'}
+[30.360871] (server) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[30.363026] (server) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/jalen/Desktop/Projects/ros2/server/src/server/src/add_three_ints_server.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[30.365216] (server) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/jalen/Desktop/Projects/ros2/server/src/server/src/add_three_ints_server.cpp:21:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[30.367372] (server) StderrLine: {'line': b'   21 |   rclcpp::Service<\x1b[01;31m\x1b[Ktutorial_interfaces\x1b[m\x1b[K::srv::AddThreeInts>::SharedPtr service =\n'}
+[30.369539] (server) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[30.371343] (server) StderrLine: {'line': b'      |                   \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[30.373239] (server) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/jalen/Desktop/Projects/ros2/server/src/server/src/add_three_ints_server.cpp:21:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[30.375013] (server) StderrLine: {'line': b'   21 |   rclcpp::Service<tutorial_interfaces::srv::AddThreeInts\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr service =\n'}
+[30.377256] (server) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[30.379550] (server) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/jalen/Desktop/Projects/ros2/server/src/server/src/add_three_ints_server.cpp:21:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[Kservice\x1b[m\x1b[K\xe2\x80\x99\n'}
+[30.381608] (server) StderrLine: {'line': b'   21 |   rclcpp::Service<tutorial_interfaces::srv::AddThreeInts>::SharedPtr \x1b[01;31m\x1b[Kservice\x1b[m\x1b[K =\n'}
+[30.383391] (server) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[30.452920] (-) TimerEvent: {}
+[30.554038] (-) TimerEvent: {}
+[30.655123] (-) TimerEvent: {}
+[30.756273] (-) TimerEvent: {}
+[30.857303] (-) TimerEvent: {}
+[30.958208] (-) TimerEvent: {}
+[31.059222] (-) TimerEvent: {}
+[31.160100] (-) TimerEvent: {}
+[31.186712] (server) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/add_three_ints_server.dir/build.make:76: CMakeFiles/add_three_ints_server.dir/src/add_three_ints_server.cpp.o] Error 1\n'}
+[31.191817] (server) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/add_three_ints_server.dir/all] Error 2\n'}
+[31.193882] (server) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[31.198987] (server) CommandEnded: {'returncode': 2}
+[31.260240] (-) TimerEvent: {}
+[31.361193] (-) TimerEvent: {}
+[31.462148] (-) TimerEvent: {}
+[31.562870] (-) TimerEvent: {}
+[31.593329] (server) JobEnded: {'identifier': 'server', 'rc': 2}
+[31.613992] (-) EventReactorShutdown: {}

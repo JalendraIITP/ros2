@@ -1,0 +1,6 @@
+{
+  "package_name": "server",
+  "non_idl_tuples": [
+    "/mnt/c/Users/jalen/Desktop/Projects/ros2/server/src/server:srv/AddThreeInts.srv"
+  ]
+}

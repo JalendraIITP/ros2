@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "server__py",
+		"source" : "/mnt/c/Users/jalen/Desktop/Projects/ros2/server/build/server/server__py"
+	}
+}

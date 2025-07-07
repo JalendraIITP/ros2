@@ -1,0 +1,5 @@
+[0.153s] Invoking command in '/mnt/c/Users/jalen/Desktop/Projects/ros2/server/build/server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/jalen/Desktop/Projects/ros2/server/build/server -- -j12 -l12
+[0.458s] [0mCMake Error: The source directory "/mnt/c/Users/jalen/Desktop/Projects/ros2/server/src/server" does not exist.
+[0.460s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.463s] gmake: *** [Makefile:788: cmake_check_build_system] Error 1
+[0.469s] Invoked command in '/mnt/c/Users/jalen/Desktop/Projects/ros2/server/build/server' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/jalen/Desktop/Projects/ros2/server/build/server -- -j12 -l12

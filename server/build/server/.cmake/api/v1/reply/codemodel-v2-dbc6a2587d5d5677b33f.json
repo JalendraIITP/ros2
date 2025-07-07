@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bd561e355860cb8353cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "server__py",
+					"jsonFile" : "directory-server__py-abad2d7f421c1048fdfe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/mnt/c/Users/jalen/Desktop/Projects/ros2/server/build/server/server__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "server",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "add_three_ints_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_three_ints_server-32ed86b43f8104ae276d.json",
+					"name" : "add_three_ints_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_server_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_server_egg-3285125d6b1f014fc663.json",
+					"name" : "ament_cmake_python_build_server_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_server-306494123fc8df8f5bd8.json",
+					"name" : "ament_cmake_python_copy_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-server-07fa9822b4c967329007.json",
+					"name" : "server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "server__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-server__cpp-e303128b48d9f2b5c4fd.json",
+					"name" : "server__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "server__py::@f1569cf434098d1d4860",
+					"jsonFile" : "target-server__py-4d891ef5e84aea03669a.json",
+					"name" : "server__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "server__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-server__rosidl_generator_c-094ce88d559de405af8d.json",
+					"name" : "server__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "server__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-server__rosidl_generator_py-104fefd448f7d26ce561.json",
+					"name" : "server__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "server__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-server__rosidl_typesupport_c-3a2acbcf409ee5e6ef7b.json",
+					"name" : "server__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "server__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-server__rosidl_typesupport_c__pyext-f18dabe813a3757e4078.json",
+					"name" : "server__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "server__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-server__rosidl_typesupport_cpp-3cc5a69222b0e9750583.json",
+					"name" : "server__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "server__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-server__rosidl_typesupport_fastrtps_c-fca8446cbcb0e9743adf.json",
+					"name" : "server__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "server__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-server__rosidl_typesupport_fastrtps_c__pyext-f2069397e67f4161bd1a.json",
+					"name" : "server__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "server__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-server__rosidl_typesupport_fastrtps_cpp-8f8d39e035d0620d974d.json",
+					"name" : "server__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "server__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-server__rosidl_typesupport_introspection_c-89de791e4ea3446986b0.json",
+					"name" : "server__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "server__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-server__rosidl_typesupport_introspection_c__pyext-ab422dfdcb17155a226f.json",
+					"name" : "server__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "server__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-server__rosidl_typesupport_introspection_cpp-b1fcb44ca926f03470b9.json",
+					"name" : "server__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "server_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-server_uninstall-28b4ecea44bed663c5e4.json",
+					"name" : "server_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2d75c277594a847cbaa9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/c/Users/jalen/Desktop/Projects/ros2/server/build/server",
+		"source" : "/mnt/c/Users/jalen/Desktop/Projects/ros2/server/src/server"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
