@@ -1,0 +1,28 @@
+status 1 = start
+status 2 = pause
+status 3 = continue
+status 4 = restart
+
+int prevStat=-1;
+if(prevStat==-1){
+    start
+}else if(prevStat==1){
+    status=2,3,4
+    if(status==2)pause;
+    else if(status==3||status==1)dont do anything
+    else{
+        // TODO
+    }
+}else if(prevStat==2){
+    if(status==3){}
+    else if(status==4){
+        // TODO
+    }
+}else if(prevStat==3){
+    if(status==2)pause
+    else if(status==4){
+        // TODO
+    }
+}else{
+    start
+}

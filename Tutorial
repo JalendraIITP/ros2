@@ -1,0 +1,95 @@
+# Steps to build and run
+ 1. create a workspace
+ 2. use inbuilt or custom interfaces & include dependencies in CMakeLists.txt and package.xml
+ 3. build
+ 4. now run publisher/subscriber & client/server service
+
+# Steps to build with custom interface on same packages
+ 1. Create a folder ros2_wp and inside it create a src folder and inside it start a workspace
+    * mkdir src && cd src
+    create a package 
+    * ros2 pkg create --build-type ament_cmake --license Apache-2.0 --node-name my_package 
+ 2. Now inside the created package
+    a. create msg and srv folder
+    b. inside rerpective folder create folders of .msg , .srv or .action type
+       .msg(contains only request)
+          int65 a
+          string b
+          int64[20] c
+       .srv(contains request & response)
+          int64 a
+          int64 b
+          ---
+          int sum
+       .action(contains request, response and feedback)
+          int64 a
+          ---
+          int64 b
+          ---
+          int64 c
+     c. Add executable codes in src of package
+     d. Update CMakeLists.txt
+         * find_package(rosidl_default_generators REQUIRED) include this because we are using custom data type
+          include the .msg in case of pub/sub or .srv in case of cli/ser or .action in case of action server
+         * set(msg_files
+            "msg/AddressBook.msg"
+           )
+         * rosidl_generate_interfaces(${PROJECT_NAME}
+            ${msg_files}
+           )
+         * add_executable(publish_address_book src/publish_address_book.cpp) {make the cpp file executable}
+         * ament_target_dependencies(publish_address_book rclcpp) this willl link the rclcpp with publish_address_book
+         * install(TARGETS
+               publish_address_book
+            DESTINATION lib/${PROJECT_NAME})
+         * rosidl_get_typesupport_target(cpp_typesupport_target
+            ${PROJECT_NAME} rosidl_typesupport_cpp)
+
+         * target_link_libraries(publish_address_book "${cpp_typesupport_target}")
+
+         * ament_export_dependencies(rosidl_default_runtime)
+      e. .xml
+            <buildtool_depend>rosidl_default_generators</buildtool_depend>
+            <exec_depend>rosidl_default_runtime</exec_depend>
+            <member_of_group>rosidl_interface_packages</member_of_group>
+      f. build
+            * colcon build --packages-select my_package
+      g. source
+            * source install/local_setup.bash
+      h. run
+            * ros2 run my_package my_node(client or server)
+
+# Create custom interface and use in different workspace
+  1. Creating interface
+      do same things 1 & 2(a,b)
+  2. update CMakeLists.txt
+      find_package(rosidl_default_generators REQUIRED)
+      rosidl_generate_interfaces(${PROJECT_NAME}
+      "srv/AddThreeInts.srv",
+         // Add all the message files
+      )
+  3. update in .xml
+         <buildtool_depend>rosidl_default_generators</buildtool_depend>
+         <exec_depend>rosidl_default_runtime</exec_depend>
+         <member_of_group>rosidl_interface_packages</member_of_group>
+  4. now build and you are done
+
+# Use this Interface
+  1. create a package with including dependencies
+      * ros2 pkg create --build-type ament_cmake --license Apache-2.0 cpp_srvcli --dependencies rclcpp example_interfaces
+  2. add executable files
+  3. update CMakeLists.txt
+      * find_package(integer_interface REQUIRED)
+      * add_executable(add_three_ints_client src/add_three_ints_client.cpp)
+      * ament_target_dependencies(add_three_ints_client rclcpp integer_interface)
+  4. update .xml
+      * <depend>tutorial_interfaces</depend>
+   now build and run
+
+# When client and server are running in different process
+  1. Both client and server uses same Interface in their respective directory
+  2. Same DOMAIN_ID
+  3. Same (Topic, Service, Action name)
+
+# Launch
+  1. Use python package
